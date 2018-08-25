@@ -31,23 +31,23 @@ AT+UART_DEF=9600,8,1,0,0
 AT+CWLAP
 ```
 
-## start a http server
+## start the server
 
 you can connect to the server and see the request in the console.
 
+### connect to network
 ```
 AT+CWJAP=”<access_point_name>”,”<password>”
 AT+CWMODE=1
-AT+CIPSERVER=1,80
 ```
 
-get ip address
+### get ip address
 
 ```
 AT+CIFSR
 ```
 
-start the server
+### start the server
 
 enable musltiple connections and start the server on port 80.
 
@@ -60,3 +60,4 @@ AT+CIPSERVER=1,80
 
 * [ESP User Manual](http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf)
 * [ESP8266 AT Commands](https://room-15.github.io/blog/2015/03/26/esp8266-at-command-reference/)
+* [GETTING STARTED WITH THE ESP8266 ESP-01](https://www.instructables.com/id/Getting-Started-With-the-ESP8266-ESP-01/)
