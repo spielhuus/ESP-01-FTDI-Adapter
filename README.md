@@ -6,7 +6,7 @@ simple adapter to connect an ESP-01 with a FTDI cable.
 
 # Usage 
 
-connect to the com port with 4792 baud rate and enter
+connect to the com port with 76800 baud rate and enter
 
 '''
 AT
